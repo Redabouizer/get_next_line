@@ -6,7 +6,7 @@
 /*   By: rbouizer <rbouizer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/18 22:32:23 by rbouizer          #+#    #+#             */
-/*   Updated: 2024/02/18 22:32:48 by rbouizer         ###   ########.fr       */
+/*   Updated: 2024/02/20 14:15:43 by rbouizer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@
 # include <stdlib.h>
 # include <limits.h>
 # include <unistd.h>
-# include <fcntl.h>
-# include <stdio.h>
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 42
