@@ -86,7 +86,7 @@ char	*get_next_line(int fd)
 	char		*line;
 	size_t		len;
 
-	if (fd < 0 || fd > OPEN_MAX || BUFFER_SIZE < 0)
+	if (fd < 0 || fd >= OPEN_MAX || BUFFER_SIZE < 0)
 		return (NULL);
 	save[fd] = save_all(save[fd], fd);
 	if (!save[fd] || *save[fd] == '\0')
